@@ -1,1 +1,10 @@
 /* Escribe acá tus estilos*/
+*{
+	font-family: 'Lora', 'Arial', serif;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: left;
+}

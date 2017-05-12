@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Té como señora</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -14,28 +15,28 @@
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
 		<form action="">
 			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
+			<input type="text" id="duenio" required>
 			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
+			<input type="text" id="apellido" required>
 			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
+			<input type="email" id="correo" required>
 			<label for="Dirección">Dirección: </label>
-			<input type="text">
+			<input type="text" id="direccion" required>
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+			<input type="text" id="telefono">
 			<label for="">Selecciona un pack:</label>
-			<select name="" id="">
-				<option value="">Escoje tu opción</option>
-				<option value="">Pack de té clásico (Té negro)</option>
-				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta</option>
-				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
+			<select name="aa" id="selet" required>
+				<option value="0">Escoje tu opción</option>
+				<option value="Pack de té clásico (Té negro)">Pack de té clásico (Té negro)</option>
+				<option value="Pack frutales (Hierbas y té con aromatizado con fruta">Pack frutales (Hierbas y té con aromatizado con fruta</option>
+				<option value="Pack variedades (Té verde, rojo y blanco)">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
-			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
+			<input type="checkbox" id="ticket"> Recibe nuestro newsletter mensual con actividades y sorteos
 			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>
 	</section>
-	<section id="clientes">
+	<section id="clientes" align="center">
 		<!-- Acá van los datos de ingresados por los clientes -->
 	</section>
 	<section id="productos">
