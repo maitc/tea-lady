@@ -13,9 +13,6 @@ function mostrarData(){
 			alert("Todos los campos son obligatorios")
 			return;
 		}
-
-
-		mosClien.innerHTML = "<br><strong>Nombre: </strong>" + nomb + "<br><strong>Apellido: </strong>" + apell + "<br><strong>Dirección: </strong>" + direcc + "<br><strong>Correo: </strong>" + corr + "<br><strong>Teléfono: </strong>" + tele + "<br><strong>Té seleccionado: </strong>" + seleccion;
-
+	mosClien.innerHTML = "<br><strong>Nombre: </strong>" + nomb + "<br><strong>Apellido: </strong>" + apell + "<br><strong>Dirección: </strong>" + direcc + "<br><strong>Correo: </strong>" + corr + "<br><strong>Teléfono: </strong>" + tele + "<br><strong>Té seleccionado: </strong>" + seleccion;
 }
 
